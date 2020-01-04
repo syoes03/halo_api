@@ -2,8 +2,8 @@ let $ = function(id) {
 	return document.getElementById(id);
 };
 
-// const apiKey = "*********";
-import { apiKey } from "../apiKey";
+const apiKey = "*********";
+
 function round(num) {
 	return Math.round(num * 100) / 100;
 }

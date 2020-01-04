@@ -5,6 +5,10 @@
   "type": "module",
   "main": "index.js",
   "dependencies": {
+    "babel-node": "0.0.1-security",
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "lodash": "^4.17.15",
     "node-essentials": "^1.2.6"
   },
   "devDependencies": {},
@@ -21,7 +25,7 @@
     "Halo",
     "Rest"
   ],
-  "author": "Nicolaas Nel",
+  "author": "May Hamn",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/NicmeisteR/Halo-Api-Tutorial/issues"

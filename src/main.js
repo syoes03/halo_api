@@ -2,14 +2,15 @@ let $ = function(id) {
 	return document.getElementById(id);
 };
 
-const apiKey = "*********";
+// const apiKey = "*********";
+import { apiKey } from "../apiKey";
 function round(num) {
 	return Math.round(num * 100) / 100;
 }
 function kda(kills, deaths, games) {
 	return round((kills - deaths) / games);
 }
-async function search() {
+export async function search() {
 	try {
 		response = await get($("gamertag").value);
 	} finally {
